@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Customer table</h1>
+    <table>
+        <tr>
+            <th>Customer name</th>
+            <th>age</th>
+            <th>city</th>
+            <th>order-details</th>
+        </tr>
+        {% for customer_detail in customer_details }
+        <tr>
+            <td>{customer_detail.cust_name}</td>
+            <td>{customer_detail.cust_age}</td>
+            <td>{customer_detail.cust_city}</td>
+            <td>{customer_detail.cust_order_details}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">Customer details not available</td>
+        </tr>
+        {% endfor %}
+        
+    </table> -->
+
+    <h1>Customer table</h1>
+    <table>
+        <tr>
+            <th>Customer name</th>
+            <th>age</th>
+            <th>city</th>
+            <th>order-details</th>
+        </tr>
+        
+        <tr>
+            <td>{customer_detail.cust_name}</td>
+            <td>{customer_detail.cust_age}</td>
+            <td>{customer_detail.cust_city}</td>
+            <td>{customer_detail.cust_order_details}</td>
+        </tr>
+        
+        <tr>
+            <td colspan="4">Customer details not available</td>
+        </tr>
+        
+        
+    </table>
+</body>
+</html>
